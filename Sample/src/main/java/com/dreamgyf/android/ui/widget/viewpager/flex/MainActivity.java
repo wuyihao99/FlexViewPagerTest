@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
 		viewList.add(LayoutInflater.from(this).inflate(R.layout.view_demo_3, null));
 		viewList.add(LayoutInflater.from(this).inflate(R.layout.view_demo_4, null));
 		viewList.add(LayoutInflater.from(this).inflate(R.layout.view_demo_5, null));
+		viewList.add(LayoutInflater.from(this).inflate(R.layout.view_demo_5, null));
+		viewList.add(LayoutInflater.from(this).inflate(R.layout.view_demo_5, null));
+		viewList.add(LayoutInflater.from(this).inflate(R.layout.view_demo_5, null));
 
 		mVpFlex = findViewById(R.id.vp_flex);
 		mVpFlex.setAdapter(mAdapter = new FlexPagerAdapter());
